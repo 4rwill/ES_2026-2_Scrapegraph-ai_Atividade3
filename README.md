@@ -31,12 +31,12 @@
 * **Onde procurou as informações:**
 
   
-### 3. Lacunas, Riscos e Falhas Potenciais
+### 3. Eixo C: Lacunas, Riscos e Falhas Potenciais
 * **Responsáveis:** 
 * **O que fez:** 
 * **Onde procurou as informações:** 
 
-### 4. Plano de Evolução da Qualidade
+### 4. Eixo D: Plano de Evolução da Qualidade
 * **Responsáveis:** 
 * **O que fez:** 
 * **Onde procurou as informações:** 
