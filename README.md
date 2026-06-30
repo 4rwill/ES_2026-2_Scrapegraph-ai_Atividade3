@@ -21,9 +21,9 @@
 ## Detalhamento das Contribuições por Eixo
 
 ### 1. Eixo A: Estratégia Atual de Testes
-* **Responsáveis:** 
-* **O que fez:** 
-* **Onde procurou as informações:** 
+* **Responsáveis:** Rian P e Christian Will
+* **O que fez:** Conduziram a investigação técnica do Eixo A, focada no mapeamento e análise da Estratégia Atual de Testes do sistema. Mantendo o rigor metodológico baseado em evidências empíricas no código-fonte, realizaram um diagnóstico forense da infraestrutura de qualidade. A auditoria abrangeu a organização estrutural das suítes de testes, a identificação empírica dos níveis de teste efetivamente implementados (unitários, integração e performance) e a avaliação do processo de automação e integração contínua (CI/CD). A investigação focou em diagnosticar lacunas operacionais, revelando vulnerabilidades significativas na esteira de qualidade: uma grave divergência entre a maturidade descrita na documentação teórica e a fragilidade da implementação real, a ausência de rastreamento de cobertura de código no pipeline, e a existência de um processo de release desprovido de quality gates 
+* **Onde procurou as informações:** As evidências técnicas foram extraídas por meio da inspeção detalhada da arquitetura do repositório e de seus arquivos de configuração. O rastreamento concentrou-se na análise anatômica do diretório `tests/` (verificando a distribuição de grafos, nós, utilitários e fixtures compartilhadas no `conftest.py`) e nos parâmetros de execução definidos no `pytest.ini` e `Makefile`.
 
 ### 2. Eixo B: Qualidade Técnica dos Testes
 * **Responsáveis:** Eduardo Ferreira e Eduardo Curcino 
